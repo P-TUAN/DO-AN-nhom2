@@ -1,0 +1,66 @@
+[
+
+{"type":"database","name":"forum_db"},
+{"type":"table","name":"comments","database":"forum_db","data":
+[
+{"id":"1","topic_id":"4","user_id":"1","comment":"haizzzzz","date_created":"2022-12-04 20:11:31","date_updated":"2022-12-04 20:19:07"},
+{"id":"2","topic_id":"4","user_id":"2","comment":"buồn buồn","date_created":"2022-12-04 20:15:33","date_updated":"2022-12-04 20:15:33"},
+{"id":"3","topic_id":"4","user_id":"3","comment":"sờ pam 1","date_created":"2022-12-04 20:15:55","date_updated":"2022-12-04 20:15:55"},
+{"id":"10","topic_id":"1","user_id":"1","comment":"trl","date_created":"2022-12-04 20:36:15","date_updated":"2022-12-04 20:36:15"},
+{"id":"11","topic_id":"4","user_id":"1","comment":"spam 2","date_created":"2022-12-04 20:38:52","date_updated":"2022-12-04 20:38:52"},
+{"id":"12","topic_id":"4","user_id":"2","comment":"spam3","date_created":"2022-12-04 20:40:47","date_updated":"2022-12-04 20:40:47"},
+{"id":"13","topic_id":"9","user_id":"2","comment":"q","date_created":"2022-12-04 20:41:47","date_updated":"2022-12-04 20:41:47"},
+{"id":"14","topic_id":"9","user_id":"2","comment":"q","date_created":"2022-12-04 20:43:47","date_updated":"2022-12-04 20:43:47"},
+{"id":"15","topic_id":"9","user_id":"2","comment":"ưe","date_created":"2022-12-04 20:51:32","date_updated":"2022-12-04 20:51:32"}
+]
+}
+,{"type":"table","name":"forum_views","database":"forum_db","data":
+[
+{"id":"1","topic_id":"4","user_id":"1"},
+{"id":"8","topic_id":"5","user_id":"2"}
+]
+}
+,{"type":"table","name":"replies","database":"forum_db","data":
+[
+{"id":"1","comment_id":"1","reply":"no hope","user_id":"1","date_created":"2022-12-04 20:12:23","date_updated":"2022-12-04 20:14:50"}
+]
+}
+,{"type":"table","name":"subforums","database":"forum_db","data":
+[
+{"id":"1","name":"chém gió","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:45:57"},
+{"id":"2","name":"Động lực","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:46:42"},
+{"id":"3","name":"No Hope","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:47:06"},
+{"id":"4","name":"Build PC","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:47:33"},
+{"id":"5","name":"Học tập","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9\r\n","date_updated":"2022-12-04 19:48:12"},
+{"id":"6","name":"Giải trí","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9\r\n","date_updated":"2022-12-04 19:48:24"},
+{"id":"7","name":"Điện thoại","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:48:55"},
+{"id":"8","name":"Wibu","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:49:16"},
+{"id":"9","name":"Fan MU","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:49:45"},
+{"id":"10","name":"Vozer","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:49:53"},
+{"id":"11","name":"CNTT","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:51:22"},
+{"id":"12","name":"Ngoại ngữ","description":"test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:51:38"},
+{"id":"13","name":"Kinh tế \/ Luật","description":"Test1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:52:31"},
+{"id":"14","name":"Kiếm tiền","description":"est1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:52:44"},
+{"id":"15","name":"xe hơi","description":"est1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:52:57"},
+{"id":"16","name":"xe máy","description":"est1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:53:05"},
+{"id":"17","name":"Tự kỷ","description":"est1 test2 test3 test4 test5 test6 test7 test8 test9","date_updated":"2022-12-04 19:53:18"}
+]
+}
+,{"type":"table","name":"topics","database":"forum_db","data":
+[
+{"id":"1","category_ids":"1","title":" áp lực có tạo nên kim cương?","content":"&amp;nbsp;ch&eacute;mch&eacute;mch&eacute;mch&eacute;mch&eacute;mch&eacute;mch&eacute;mch&eacute;m","user_id":"1","date_created":"2022-12-04 19:55:19"},
+{"id":"2","category_ids":"1,5,2","title":"Áp Lực Tạo Ra Kim Cương Hay Là Tàn Tro","content":"","user_id":"1","date_created":"2022-12-04 19:56:56"},
+{"id":"3","category_ids":"1,11","title":"Làn sóng sa thải lập trình viên ở Mỹ ","content":"ch&eacute;mch&eacute;mch&eacute;mch&eacute;mch&eacute;mch&eacute;m","user_id":"2","date_created":"2022-12-04 20:07:59"},
+{"id":"4","category_ids":"1","title":"test1","content":"111","user_id":"2","date_created":"2022-12-04 20:09:57"},
+{"id":"5","category_ids":"1","title":"test2","content":"111","user_id":"3","date_created":"2022-12-04 20:10:25"},
+{"id":"9","category_ids":"1,11,9","title":"abc","content":"abc","user_id":"2","date_created":"2022-12-04 20:41:30"}
+]
+}
+,{"type":"table","name":"users","database":"forum_db","data":
+[
+{"id":"1","name":"Administrator","username":"admin","password":"c4ca4238a0b923820dcc509a6f75849b","type":"1"},
+{"id":"2","name":"Phạm Tuấn","username":"Tuan","password":"d6b8cc42803ea100735c719f1d7f5e11","type":"2"},
+{"id":"3","name":"Hùng Vĩ","username":"vi","password":"35b36b28916d38b34abddf832e286126","type":"2"}
+]
+}
+]
